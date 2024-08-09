@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  height: 100vh;
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      color: #e32636;
+      font-size: 4rem;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 47.125rem;
+
+    label {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    input {
+      border-radius: 0.5rem;
+      padding: 1rem;
+      font-size: 1.75rem;
+
+      background-color: #2a2a2a;
+      border: none;
+      color: #fff;
+
+      &:focus {
+        outline: #e32636;
+      }
+    }
+  }
+}
